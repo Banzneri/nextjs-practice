@@ -25,7 +25,7 @@ interface Props {
 
 const Home: React.FC<Props> = ({ allPostsData }) => {
   return (
-    <Layout>
+    <Layout home>
       <Head>
         <title>{siteTitle}</title>
       </Head>
